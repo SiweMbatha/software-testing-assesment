@@ -1,0 +1,42 @@
+Analysis
+Question 1
+Add Users
+1. How many licenses are available?
+2. What happnes if the licenses are all used?
+3. Are there business rules in place?
+4. Which information should be captured (Personal, Contact,Address details)
+5. Which field are mandotory?
+6. Are special characters allowed?
+7. What is the length of each field?
+8. Is there validation on the data captured?
+9. Which fields will be validated?
+10. Are duplicates allowed (email,cell number)?
+11. In case of error/waring/success what error message should be displayed?
+12. Which Database will be used?
+13. Will there be masking of details stored in the DB (ID numbers)
+14. What is the format of the created users (User ID)
+15. If a different role tries to access the feature what is going to happen?
+16. How will the flow look like, is everything going to happen on 1 screeen or multiple screens)
+
+Edit Users
+1. Which information should be edited?
+2. What happens to the information once edited (does it still get stored in the DB)
+
+
+Remove Users
+1. Once the user is removed does the info get deleted in the DB?
+2. What happens to the user id once the user is removed, is it recycled?
+3. Once user is removed can they be added again?
+
+Question 2
+1. The flow must be simple
+2. Mandotory fields must be marked or indicated
+3. Before saving if there is information missing a message should be displayed
+4. Messages displayed must be clear and easy to read and understand
+5. Messages must be indicated by colour Warning - Orange label, Error - Red label, Success - Green label
+6. Buttons must be clear and visible
+
+
+Question 3
+Automation will be conducted on Add User feature
+
